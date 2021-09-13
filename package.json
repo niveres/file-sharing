@@ -1,10 +1,10 @@
 {
-  "name": "react-tests",
+  "name": "file-sharing",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
-    "postinstall": "(cd backend && npm install); (cd frontend && npm install)"
+    "start": "(cd frontend && npm start)",
+    "postinstall": "(cd backend && npm install) && (cd ../frontend && npm install)"
   }
 }
